@@ -62,7 +62,7 @@ CREATE TABLE events (
   `title` varchar(255) NOT NULL,
   `start` datetime NOT NULL,
   `end` datetime NOT NULL,
-  PRIMARY KEY (`id`))
+  PRIMARY KEY (`id`));
 ```
 
 Now add some example event data to the `events` table:
